@@ -1,14 +1,17 @@
 # Drawing with the HiWonder XArm 1S
 
-### A 4-DOF Robotic Arm That Writes What You Tell It
+### A 4-DOF Robotic Arm That Draws What You Tell It
 
-![XArm Drawing](images/demo-drawing.jpg)
+![XArm Drawing](images/xArm.jpg)
 
 ---
 
 ## 🛠️ Overview
 
-This project transforms a HiWonder XArm 1S robotic arm into a drawing machine. With a pen mounted at the wrist, the arm follows a 3D path defined in Cartesian space. Using analytical forward and inverse kinematics, the arm calculates and executes the servo angles required to place the pen precisely on a flat surface.
+This project transforms a HiWonder XArm 1S robotic arm into a drawing machine. 
+With a pen mounted at the wrist, the arm follows a 3D path defined in Cartesian space. 
+Using analytical forward and inverse kinematics, the arm calculates and executes the servo angles 
+required to place the pen precisely on a flat surface.
 
 ---
 
@@ -16,9 +19,10 @@ This project transforms a HiWonder XArm 1S robotic arm into a drawing machine. W
 
 * HiWonder XArm 1S (4 DOF version)
 * USB connection to a host computer
-* Pen holder bracket
+* Pen holder (a couple of zip ties)
 * Power supply (5–7.4V recommended)
 * Drawing surface (paper or whiteboard)
+* Tape/something to clamp the drawing surface down to the ground
 
 ---
 
@@ -145,7 +149,7 @@ Each point is passed through `ik_4dof(...)` and sent to the XArm via USB.
 3. Run the Python script:
 
    ```bash
-   python draw_path.py
+   python house_demo.py
    ```
 
 You can define your own path arrays and modify the script to draw letters, shapes, or even signatures.
@@ -154,7 +158,8 @@ You can define your own path arrays and modify the script to draw letters, shape
 
 ## 📸 Demo
 
-![Arm Drawing Demo](images/arm-in-action.gif)
+[Drawing Video](images/drawing_demo.mp4)
+![Arm Drawing Demo](images/drawing.jpg)
 
 ---
 
