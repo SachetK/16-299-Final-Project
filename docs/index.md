@@ -284,8 +284,8 @@ Below is the final house that it drew.
 
 ## 🗂️ Files and Code
 
-You can find all source code and data in the GitHub repo:
-https://github.com/SachetK/16-299-Final-Project
+You can find all source code and data in the [GitHub repo](
+https://github.com/SachetK/16-299-Final-Project)
 
 Made by Sachet Korada
 
