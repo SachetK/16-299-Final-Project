@@ -1,7 +1,5 @@
 import time
-
 import xarm
-
 from inverse_kinematics import ik_4dof
 
 points = [
